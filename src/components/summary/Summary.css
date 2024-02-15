@@ -1,0 +1,170 @@
+.sum-bg {
+  background-color: white;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.sum-box {
+  width: 318px;
+  padding: 32px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  border-radius: 5px;
+}
+.card-title {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+  color: black;
+}
+.card-title2 {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 700;
+  color: black;
+  opacity: 0.5;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.gap-8 {
+  gap: 8px;
+  margin: 32px 0;
+}
+.btn {
+  width: 100%;
+  padding: 15px;
+  color: aliceblue;
+  background-color: coral;
+  border: none;
+  text-align: center;
+}
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+.modal-box {
+  padding: 48px;
+  background-color: white;
+}
+.pitichka {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: 1.14px;
+  color: black;
+  margin-top: 33px;
+  margin-bottom: 24px;
+  width: 284px;
+}
+.modal-text {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 33px;
+}
+.modal-text2 {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #f1f1f1;
+  margin-bottom: 8px;
+}
+.card2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.ul-modal {
+  background-color: #f1f1f1;
+  margin-bottom: 16px;
+  padding: 24px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.modal-div {
+  height: 269px;
+  background-color: #000;
+  color: aliceblue;
+  padding: 172px 65px 41px 32px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.mr-27 {
+  margin-right: 27px;
+}
+.mr-42 {
+  margin-right: 42px;
+}
+.pad-8 {
+  padding: 8px;
+}
+.view {
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: black;
+  opacity: 0.5;
+  border-top: 1px #000 solid;
+}
+
+@media screen and (max-width: 770px) {
+  .sum-box {
+    width: 100vh;
+    padding: 32px;
+  }
+  .btn {
+    width: 100%;
+    padding: 15px;
+    color: aliceblue;
+    background-color: coral;
+    border: none;
+  }
+}

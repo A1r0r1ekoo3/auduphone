@@ -1,0 +1,46 @@
+/* .hr{
+    display: none;
+}
+.header-btn__img {
+    display: none;
+} */
+/* .header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+} */
+.s{
+    width: 24px;
+    height: 24px;
+}.df{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+.df-text {
+    max-width: 500px;
+    font-size: 15px;
+    line-height: 25px; 
+    font-weight: 500;
+    color: #ffffff;
+    opacity: 0.6;
+    padding-bottom: 56px;
+
+}
+.footer {
+    background-color: #0E0E0E;
+
+}
+.v{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.dt {
+    font-size: 15px;
+    line-height: 25px; 
+    font-weight: 500;
+    color: #ffffff;
+    opacity: 0.6;
+}

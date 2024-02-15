@@ -1,0 +1,134 @@
+.us {
+  background-color: #0e0e0e;
+  padding-top: 98px;
+  padding-bottom: 95px;
+  text-align: center;
+}
+.title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.one-mg {
+  object-fit: inherit;
+}
+.one-item {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+  padding-top: 160px;
+  /* object-fit: cover; */
+}
+.on {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.on-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.on-text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.6;
+  width: 350px;
+}
+.on-link {
+  background-color: #d87d4a;
+  color: #ffffff;
+  padding: 15px 31px 15px 29px;
+  /* margin: 15px; */
+  font-size: 13px;
+  width: 15.8rem;
+  border-radius: 3px;
+  line-height: 18px;
+}
+.a {
+  padding-bottom: 160px;
+}
+.sd {
+  font-weight: 400;
+  color: #d87d4a;
+  font-size: 14px;
+  letter-spacing: 10px;
+  line-height: 20px;
+}
+.oo {
+  padding: 85px 130px;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 1000px) {
+  .one-mg {
+    width: 450px;
+    height: 450px;
+  }
+  .one-item {
+    gap: 60px;
+    padding-top: 80px;
+  }
+  .oo {
+    padding: 50px 50px;
+  }
+  .on-text {
+    font-size: 13px;
+    width: 200px;
+  }
+  .on-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .on-link {
+    background-color: #d87d4a;
+    color: #ffffff;
+    padding: 13px 25px 13px 24px;
+    /* margin: 15px; */
+    font-size: 11px;
+
+    border-radius: 3px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .one-mg {
+    width: 350px;
+    height: 350px;
+  }
+  .one-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .ss {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .oo {
+    padding: 30px 30px;
+  }
+  .on-text {
+    font-size: 11px;
+    width: 350px;
+  }
+  .on-link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .on-text {
+    font-size: 9px;
+    width: 250px;
+  }
+  .one-mg {
+    width: 250px;
+    height: 250px;
+  }
+}

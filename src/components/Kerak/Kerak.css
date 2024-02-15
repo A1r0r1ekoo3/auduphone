@@ -1,0 +1,54 @@
+.kerak {
+  display: flex;
+
+  justify-content: space-between;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.k-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  padding-bottom: 32px;
+}
+.k-text1 {
+  max-width: 600px;
+  opacity: 0.6;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.k-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.k-text {
+  font-weight: 500;
+  opacity: 0.6;
+  font-size: 15px;
+  line-height: 25px;
+}
+.k-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.k-s {
+  color: #d87d4a;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 50;
+}
+
+@media screen and (max-width: 850px) {
+  .kerak {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+  .k-list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
